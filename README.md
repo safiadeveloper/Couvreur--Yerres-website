@@ -64,59 +64,47 @@ A modern, responsive, single-file website built for a French roofing company, **
 
 ## 📸 Screenshots
 
-> **Note:** Save your screenshots in a `screenshots/` folder using exactly the file names below so the images show up here.
-
 ### 1️⃣ Top Bar, Header & Navigation
 
-| Desktop View | Mobile View |
-|:---:|:---:|
-| <img width="926" height="436" alt="image" src="https://github.com/user-attachments/assets/4da08865-b97e-45ec-a689-6aad0d85339d" />
-|
-| Logo, phone, service area, "Request a quote" button and sticky navbar | On mobile, navbar items wrap into two columns |
+| Header & Navigation |
+|:---:|
+| <img src="https://github.com/user-attachments/assets/4da08865-b97e-45ec-a689-6aad0d85339d" alt="Header and navigation" width="100%"> |
+| Logo, phone, service area, "Request a quote" button and sticky navbar |
 
-### 2️⃣ Hero Section
+### 2️⃣ Quote (Devis) Section
 
+| Quote Section – Info & Form |
+|:---:|
+| <img src="https://github.com/user-attachments/assets/25710f50-72ff-4078-a63c-6d2b84394ae7" alt="Quote section" width="100%"> |
+| Left: tag, heading, ten-year warranty, callback card · Right: name, phone, email, city, service, timeframe, details |
 
-### 3️⃣ Quote (Devis) Section
+### 3️⃣ About Section
 
-| Left Column – Info & Trust | Right Column – Form |
-|:---:|:---:|
-| <img width="952" height="440" alt="image" src="https://github.com/user-attachments/assets/25710f50-72ff-4078-a63c-6d2b84394ae7" />
-|
-| Tag, heading, ten-year warranty, callback card | Name, phone, email, city, service, timeframe, details |
+| About Section |
+|:---:|
+| <img src="https://github.com/user-attachments/assets/928f2651-d4a8-4939-b1a5-a0e26f3edcf8" alt="About section" width="100%"> |
+| Two tilted images (`roof1.jpg`, `roof2.jpg`) that straighten on hover, company intro, qualification badge, phone number and CTA button |
 
+### 4️⃣ Services Section
 
-### 5️⃣ About Section
+| Services Grid |
+|:---:|
+| <img src="https://github.com/user-attachments/assets/b20f13d7-8c6b-4801-9769-50ea32c736d4" alt="Services section" width="100%"> |
+| New roofing, Framework, Waterproofing, Cleaning, Zinc work, Roof windows, Facade renovation, Insulation |
 
-| Images & Layout | Text & Checklist |
-|:---:|:---:|
-| <img width="959" height="442" alt="image" src="https://github.com/user-attachments/assets/928f2651-d4a8-4939-b1a5-a0e26f3edcf8" />
- |
-| Two tilted images (`roof1.jpg`, `roof2.jpg`) that straighten on hover | Company intro, qualification badge, phone number and CTA button |
+### 5️⃣ Emergency Banner & Process Steps
 
-### 6️⃣ Services Section
+| Emergency Banner & Steps |
+|:---:|
+| <img src="https://github.com/user-attachments/assets/3173b31d-6a3a-4a71-8e3e-7177c62bda6f" alt="Emergency banner and process steps" width="100%"> |
+| "Leak emergency?" 24/7 call-to-action, then 3 steps: consultation, roofing works, final inspection |
 
-| Services Grid (Row 1) | Services Grid (Row 2) |
-|:---:|:---:|
-| <img width="940" height="431" alt="image" src="https://github.com/user-attachments/assets/b20f13d7-8c6b-4801-9769-50ea32c736d4" />
- |
-| New roofing, Framework, Waterproofing, Cleaning | Zinc work, Roof windows, Facade renovation, Insulation |
+### 6️⃣ Footer
 
-### 7️⃣ Emergency Banner & Process Steps
-
-| Emergency Banner | How We Work |
-|:---:|:---:|
-| <img width="944" height="440" alt="image" src="https://github.com/user-attachments/assets/3173b31d-6a3a-4a71-8e3e-7177c62bda6f" />
- |
-| "Leak emergency?" – 24/7 call-to-action | 3 steps: consultation, roofing works, final inspection |
-
-### 8️⃣ Footer
-
-| Footer Desktop | Footer Mobile |
-|:---:|:---:|
-| <img width="950" height="412" alt="image" src="https://github.com/user-attachments/assets/ff82abea-2bff-4c03-b35c-cc84a3f856c8" />
-|
-| Logo, contact details, service links, legal links, copyright | Single-column layout |
+| Footer |
+|:---:|
+| <img src="https://github.com/user-attachments/assets/ff82abea-2bff-4c03-b35c-cc84a3f856c8" alt="Footer" width="100%"> |
+| Logo, contact details, service links, legal links, copyright |
 
 ---
 
@@ -143,23 +131,6 @@ couvreur-yerres/
 ├── roof.jpg                 # Hero background image
 ├── roof1.jpg                # About section – image 1
 ├── roof2.jpg                # About section – image 2
-├── screenshots/             # Screenshots used in this README
-│   ├── 01-header-desktop.png
-│   ├── 01-header-mobile.png
-│   ├── 02-hero-desktop.png
-│   ├── 02-hero-mobile.png
-│   ├── 03-devis-info.png
-│   ├── 03-devis-form.png
-│   ├── 04-ticker.png
-│   ├── 04-why-us.png
-│   ├── 05-about-images.png
-│   ├── 05-about-text.png
-│   ├── 06-services-1.png
-│   ├── 06-services-2.png
-│   ├── 07-urgence.png
-│   ├── 07-steps.png
-│   ├── 08-footer-desktop.png
-│   └── 08-footer-mobile.png
 └── README.md
 ```
 
