@@ -76,10 +76,6 @@ A modern, responsive, single-file website built for a French roofing company, **
 
 ### 2️⃣ Hero Section
 
-| Desktop View | Mobile View |
-|:---:|:---:|
-| ![Hero Desktop](screenshots/02-hero-desktop.png) | ![Hero Mobile](screenshots/02-hero-mobile.png) |
-| Background photo (`roof.jpg`) with overlay, badge, large "Artisans couvreurs" title, skyline SVG | Same hero, font sizes scale automatically with `clamp()` |
 
 ### 3️⃣ Quote (Devis) Section
 
@@ -89,12 +85,6 @@ A modern, responsive, single-file website built for a French roofing company, **
 |
 | Tag, heading, ten-year warranty, callback card | Name, phone, email, city, service, timeframe, details |
 
-### 4️⃣ Ticker & "Why Choose Us?"
-
-| Marquee Ticker | Why Choose Us (5 Cards) |
-|:---:|:---:|
-| ![Ticker](screenshots/04-ticker.png) | ![Why Us](screenshots/04-why-us.png) |
-| Tilted gold strip that loops through the services | Cards lift on hover and the icon spins 360° |
 
 ### 5️⃣ About Section
 
