@@ -1,12 +1,12 @@
-# 🏠 Couvreur Yerres – Site Web Artisans Couvreurs
+# 🏠 Couvreur Yerres – Roofing Company Website
 
-Ek modern, responsive, single-file website jo ek French roofing company (**Couvreur Yerres**) ke liye banayi gayi hai. Website mein couverture, zinguerie, étanchéité, isolation aur emergency fuite repair services ko professional tareeqe se show kiya gaya hai, saath mein ek detailed **devis (quote) form** bhi hai.
+A modern, responsive, single-file website built for a French roofing company, **Couvreur Yerres**. It presents roofing, zinc work, waterproofing, insulation and emergency leak repair services, and includes a detailed **quote (devis) request form**.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-success)
-![Language](https://img.shields.io/badge/Langue-Français-blue)
+![Site Language](https://img.shields.io/badge/Site%20language-French-blue)
 
 ---
 
@@ -21,7 +21,7 @@ Ek modern, responsive, single-file website jo ek French roofing company (**Couvr
 7. [Sections Breakdown](#-sections-breakdown)
 8. [Customization](#-customization)
 9. [Animations & Effects](#-animations--effects)
-10. [Quote Form Working](#-quote-form-working)
+10. [Quote Form Flow](#-quote-form-flow)
 11. [Responsive Design](#-responsive-design)
 12. [SEO & Accessibility](#-seo--accessibility)
 13. [TODO / Placeholders](#-todo--placeholders)
@@ -33,108 +33,108 @@ Ek modern, responsive, single-file website jo ek French roofing company (**Couvr
 
 | Detail | Info |
 |---|---|
-| **Project Name** | Couvreur Yerres |
-| **Type** | Business / Service Website (Landing Page) |
-| **Language** | Français (`lang="fr"`) |
-| **Main File** | `couvreur-yerres.html` (single HTML file – CSS + JS inline) |
-| **Target Audience** | Particuliers & professionnels (Yerres 91330 aur aas-paas ka region) |
-| **Main Goal** | Visitors ko **devis request** ya **emergency call** ke liye convert karna |
+| **Project name** | Couvreur Yerres |
+| **Type** | Business / service landing page |
+| **Site language** | French (`lang="fr"`) |
+| **Main file** | `couvreur-yerres.html` (single file – HTML, CSS and JS inline) |
+| **Target audience** | Homeowners and businesses in Yerres (91330) and the surrounding region |
+| **Main goal** | Convert visitors into **quote requests** or **emergency calls** |
 
 ---
 
 ## ✨ Features
 
-- 📞 **Top info bar** – urgence 7j/7, email, devis gratuit sous 48h
-- 🧭 **Sticky navbar** with dropdown submenus (scroll par compact ho jata hai)
-- 🌧️ **Animated hero** – rain effect, moving clouds, skyline SVG
-- 📝 **Detailed quote form** – service type, délai, ville, message
-- 📧 **mailto integration** – form submit par email app khulti hai
-- 🏅 **"Pourquoi nous choisir"** – 5 trust cards
-- 🏢 **About section** – overlapping tilted images
-- 🛠️ **8 service cards** – images, hover zoom, clip-path design
-- 🚨 **Emergency banner** – 24h/24 fuite intervention
-- 🔢 **3-step process** – consultation → travaux → inspection
-- 🎞️ **Marquee ticker** – scrolling services strip
+- 📞 **Top info bar** – 24/7 leak emergency line, email, free quote within 48 h
+- 🧭 **Sticky navbar** with dropdown submenus (shrinks on scroll)
+- 🌧️ **Animated hero** – rain effect, drifting clouds, skyline SVG
+- 📝 **Detailed quote form** – service type, urgency, city, project details
+- 📧 **mailto integration** – submitting the form opens the visitor's email app
+- 🏅 **"Why choose us"** – 5 trust cards
+- 🏢 **About section** – overlapping, tilted images
+- 🛠️ **8 service cards** – images, hover zoom, angled-corner design
+- 🚨 **Emergency banner** – 24/7 leak intervention
+- 🔢 **3-step process** – consultation → works → final inspection
+- 🎞️ **Marquee ticker** – scrolling strip of services
 - 🎬 **Scroll-reveal animations** (IntersectionObserver)
-- ♿ **Accessibility** – focus-visible, aria labels, `prefers-reduced-motion`
+- ♿ **Accessibility** – focus-visible outlines, ARIA labels, `prefers-reduced-motion`
 - 📱 **Fully responsive** – mobile, tablet, desktop
-- 📲 **Safe-area support** – iPhone notch / bars ke liye `env(safe-area-inset-*)`
+- 📲 **Safe-area support** – `env(safe-area-inset-*)` for notched phones
 
 ---
 
 ## 📸 Screenshots
 
-> **Note:** Neeche ke image paths ke mutabiq apne screenshots `screenshots/` folder mein save karein (names exactly same rakhein).
+> **Note:** Save your screenshots in a `screenshots/` folder using exactly the file names below so the images show up here.
 
 ### 1️⃣ Top Bar, Header & Navigation
 
 | Desktop View | Mobile View |
 |:---:|:---:|
 | ![Header Desktop](screenshots/01-header-desktop.png) | ![Header Mobile](screenshots/01-header-mobile.png) |
-| Logo, phone, zone d'intervention, "Demander un devis" button aur sticky navbar | Mobile par navbar items wrap ho kar 2-column ban jate hain |
+| Logo, phone, service area, "Request a quote" button and sticky navbar | On mobile, navbar items wrap into two columns |
 
 ### 2️⃣ Hero Section
 
 | Desktop View | Mobile View |
 |:---:|:---:|
 | ![Hero Desktop](screenshots/02-hero-desktop.png) | ![Hero Mobile](screenshots/02-hero-mobile.png) |
-| Background image (`roof.jpg`) + overlay, badge, big title "Artisans couvreurs", skyline SVG | Same hero, font sizes `clamp()` se auto adjust |
+| Background photo (`roof.jpg`) with overlay, badge, large "Artisans couvreurs" title, skyline SVG | Same hero, font sizes scale automatically with `clamp()` |
 
-### 3️⃣ Devis (Quote) Section
+### 3️⃣ Quote (Devis) Section
 
 | Left Column – Info & Trust | Right Column – Form |
 |:---:|:---:|
-| ![Devis Info](screenshots/03-devis-info.png) | ![Devis Form](screenshots/03-devis-form.png) |
-| Tag, heading, garantie décennale, callback card | Nom, téléphone, email, ville, service, délai, détails |
+| ![Quote Info](screenshots/03-devis-info.png) | ![Quote Form](screenshots/03-devis-form.png) |
+| Tag, heading, ten-year warranty, callback card | Name, phone, email, city, service, timeframe, details |
 
-### 4️⃣ Ticker & "Pourquoi nous choisir ?"
+### 4️⃣ Ticker & "Why Choose Us?"
 
 | Marquee Ticker | Why Choose Us (5 Cards) |
 |:---:|:---:|
 | ![Ticker](screenshots/04-ticker.png) | ![Why Us](screenshots/04-why-us.png) |
-| Gold rotated strip jo services ko loop mein scroll karti hai | Hover par cards upar uthte hain aur icon 360° rotate hota hai |
+| Tilted gold strip that loops through the services | Cards lift on hover and the icon spins 360° |
 
-### 5️⃣ About Section (À propos)
+### 5️⃣ About Section
 
 | Images & Layout | Text & Checklist |
 |:---:|:---:|
 | ![About Images](screenshots/05-about-images.png) | ![About Text](screenshots/05-about-text.png) |
-| Do tilted images (`roof1.jpg`, `roof2.jpg`) jo hover par seedhi hoti hain | Company intro, qualification badge, phone aur CTA button |
+| Two tilted images (`roof1.jpg`, `roof2.jpg`) that straighten on hover | Company intro, qualification badge, phone number and CTA button |
 
 ### 6️⃣ Services Section
 
 | Services Grid (Row 1) | Services Grid (Row 2) |
 |:---:|:---:|
 | ![Services 1](screenshots/06-services-1.png) | ![Services 2](screenshots/06-services-2.png) |
-| Toiture neuve, Charpente, Étanchéité, Nettoyage | Zinguerie, Fenêtres de toit, Ravalement, Isolation |
+| New roofing, Framework, Waterproofing, Cleaning | Zinc work, Roof windows, Facade renovation, Insulation |
 
 ### 7️⃣ Emergency Banner & Process Steps
 
-| Urgence Banner | Comment fonctionnons-nous ? |
+| Emergency Banner | How We Work |
 |:---:|:---:|
-| ![Urgence](screenshots/07-urgence.png) | ![Steps](screenshots/07-steps.png) |
-| "Une urgence fuite ?" – 7j/7 & 24h/24 call-to-action | 3 steps: Consultation, Travaux, Inspection finale |
+| ![Emergency](screenshots/07-urgence.png) | ![Steps](screenshots/07-steps.png) |
+| "Leak emergency?" – 24/7 call-to-action | 3 steps: consultation, roofing works, final inspection |
 
 ### 8️⃣ Footer
 
 | Footer Desktop | Footer Mobile |
 |:---:|:---:|
 | ![Footer Desktop](screenshots/08-footer-desktop.png) | ![Footer Mobile](screenshots/08-footer-mobile.png) |
-| Logo, contact, liens services, mentions légales, copyright | Single column layout |
+| Logo, contact details, service links, legal links, copyright | Single-column layout |
 
 ---
 
 ## 🧰 Tech Stack
 
-| Technology | Use |
+| Technology | Used for |
 |---|---|
 | **HTML5** | Semantic structure (`header`, `nav`, `section`, `article`, `footer`) |
 | **CSS3** | Grid, Flexbox, CSS variables, clip-path, keyframe animations |
 | **Vanilla JavaScript** | Form → mailto, sticky navbar, scroll reveal |
-| **Google Fonts** | Montserrat (headings) + Roboto (body) |
+| **Google Fonts** | Montserrat (headings) + Roboto (body text) |
 | **Unsplash** | Service card images (remote URLs) |
 
-> ❌ Koi framework / library / build tool ki zaroorat nahi.
+> No frameworks, libraries or build tools required.
 
 ---
 
@@ -147,7 +147,7 @@ couvreur-yerres/
 ├── roof.jpg                 # Hero background image
 ├── roof1.jpg                # About section – image 1
 ├── roof2.jpg                # About section – image 2
-├── screenshots/             # README ke screenshots
+├── screenshots/             # Screenshots used in this README
 │   ├── 01-header-desktop.png
 │   ├── 01-header-mobile.png
 │   ├── 02-hero-desktop.png
@@ -171,10 +171,10 @@ couvreur-yerres/
 
 ## 🚀 Installation & Usage
 
-### Option 1 – Direct browser mein kholein
-1. Project folder download / clone karein
-2. `couvreur-yerres.html` par double-click karein
-3. Website browser mein khul jayegi ✅
+### Option 1 – Open directly in a browser
+1. Download or clone the project folder
+2. Double-click `couvreur-yerres.html`
+3. The site opens in your default browser ✅
 
 ### Option 2 – Local server (recommended)
 
@@ -182,19 +182,19 @@ couvreur-yerres/
 # Python
 python -m http.server 8000
 
-# ya Node.js
+# or Node.js
 npx serve .
 ```
 
-Phir browser mein kholein: `http://localhost:8000/couvreur-yerres.html`
+Then open `http://localhost:8000/couvreur-yerres.html`.
 
 ### Option 3 – VS Code Live Server
-1. VS Code mein folder open karein
-2. **Live Server** extension install karein
-3. HTML file par right-click → **Open with Live Server**
+1. Open the folder in VS Code
+2. Install the **Live Server** extension
+3. Right-click the HTML file → **Open with Live Server**
 
-### Hosting (Deploy)
-Free hosting options: **GitHub Pages**, **Netlify**, **Vercel**, **Cloudflare Pages** – bas folder upload karein.
+### Deployment
+Free hosting options: **GitHub Pages**, **Netlify**, **Vercel**, **Cloudflare Pages** – just upload the folder.
 
 ---
 
@@ -202,27 +202,27 @@ Free hosting options: **GitHub Pages**, **Netlify**, **Vercel**, **Cloudflare Pa
 
 | # | Section | ID / Class | Description |
 |:-:|---|---|---|
-| 1 | Top Bar | `.top` | Urgence, email, devis gratuit |
-| 2 | Header | `.head` | Logo, phone, zone, CTA |
-| 3 | Navbar | `.navbar` | Sticky menu + dropdowns |
+| 1 | Top bar | `.top` | Emergency line, email, free quote |
+| 2 | Header | `.head` | Logo, phone, service area, CTA |
+| 3 | Navbar | `.navbar` | Sticky menu with dropdowns |
 | 4 | Hero | `#accueil` | Background image, title, skyline SVG |
-| 5 | Devis | `#devis` | Info + detailed form |
+| 5 | Quote | `#devis` | Info column + detailed form |
 | 6 | Ticker | `.tick` | Scrolling services strip |
-| 7 | Why Us | `.why` | 5 trust cards |
+| 7 | Why us | `.why` | 5 trust cards |
 | 8 | About | `#apropos` | Company intro + images |
-| 9 | Services | `#services` | 8 service cards + urgence banner |
+| 9 | Services | `#services` | 8 service cards + emergency banner |
 | 10 | Steps | `.steps` | 3-step process |
-| 11 | Footer | `#contact` | Contact, links, copyright |
+| 11 | Footer | `#contact` | Contact details, links, copyright |
 
 ---
 
 ## 🎨 Customization
 
-### Colors (CSS Variables)
+### Colors (CSS variables)
 
-`:root` mein ye variables change karein:
+Edit these in `:root`:
 
-| Variable | Default | Use |
+| Variable | Default | Used for |
 |---|---|---|
 | `--navy` | `#0e1738` | Main dark blue (headings, footer) |
 | `--red` | `#f2542d` | Primary accent (buttons, icons) |
@@ -237,15 +237,15 @@ Free hosting options: **GitHub Pages**, **Netlify**, **Vercel**, **Cloudflare Pa
 ```
 
 ### Images
-- **Hero:** `roof.jpg` ko apni image se replace karein
-- **About:** `roof1.jpg`, `roof2.jpg` replace karein
-- **Services:** `<img src="https://images.unsplash.com/...">` URLs apni images se badlein
+- **Hero:** replace `roof.jpg` with your own image
+- **About:** replace `roof1.jpg` and `roof2.jpg`
+- **Services:** swap the `<img src="https://images.unsplash.com/...">` URLs for your own
 
-### Contact Details
-Ye jagah update karein:
-- Phone: `01 00 00 00 00` aur `tel:+33100000000`
-- Email: `Safia34740@gmail.com` (top bar, footer, JS `mailto`)
-- Address & SIRET: footer mein `[Votre adresse]`, `[à compléter]`
+### Contact details
+Update these in the HTML:
+- Phone: `01 00 00 00 00` and `tel:+33100000000`
+- Email: `Safia34740@gmail.com` (top bar, footer, and the JS `mailto`)
+- Address and SIRET: footer placeholders `[Votre adresse]`, `[à compléter]`
 
 ---
 
@@ -253,49 +253,49 @@ Ye jagah update karein:
 
 | Effect | Where | Technique |
 |---|---|---|
-| Rain falling | Hero | `repeating-linear-gradient` + `@keyframes rain` |
-| Moving clouds | Hero | `radial-gradient` + `@keyframes cloud` |
+| Falling rain | Hero | `repeating-linear-gradient` + `@keyframes rain` |
+| Drifting clouds | Hero | `radial-gradient` + `@keyframes cloud` |
 | Skyline rise | Hero SVG | `@keyframes rise` |
 | Badge pop-in | Hero | `@keyframes pop` |
-| Button shine | `.btn` | `::after` skewed gradient |
+| Button shine | `.btn` | Skewed gradient on `::after` |
 | Pulsing phone icon | Header | `@keyframes ring` |
 | Marquee | Ticker | `@keyframes mq` |
-| Card lift & icon spin | Why Us | `transform` on hover |
+| Card lift & icon spin | Why us | `transform` on hover |
 | Image zoom | Service cards | `scale()` on hover |
-| Shake effect | Urgence button | `@keyframes wob` |
+| Wobble | Emergency button | `@keyframes wob` |
 | Floating icons | Steps | `@keyframes bob` |
 | Scroll reveal | Cards, titles | `IntersectionObserver` + `.rv` / `.in` |
 | Title underline grow | All `h2` | `h2::after` width transition |
 
 ---
 
-## 📨 Quote Form Working
+## 📨 Quote Form Flow
 
 ```
-User form fill karta hai
+Visitor fills in the form
         ↓
-JS "submit" event pakadta hai (preventDefault)
+JS catches the "submit" event (preventDefault)
         ↓
-Nom, téléphone, email, message se email body banti hai
+Email body is built from name, phone, email and message
         ↓
-"Votre application e-mail s'ouvre..." message show hota hai
+Status message "Votre application e-mail s'ouvre..." is shown
         ↓
-mailto: link se user ki email app khulti hai
+A mailto: link opens the visitor's email app
 ```
 
-**Form Fields:**
+**Form fields:**
 
 | Field | Type | Required |
 |---|---|:-:|
-| Nom & Prénom | text | ✅ |
-| Téléphone | tel | ✅ |
-| Adresse E-mail | email | ✅ |
-| Code Postal / Ville | text | ✅ |
-| Type de Prestation | select | ✅ |
-| Délai souhaité | select | ❌ |
-| Détails du projet | textarea | ✅ |
+| Full name | text | ✅ |
+| Phone | tel | ✅ |
+| Email address | email | ✅ |
+| Postcode / City | text | ✅ |
+| Type of service | select | ✅ |
+| Desired timeframe | select | ❌ |
+| Project details | textarea | ✅ |
 
-> 💡 **Note:** Abhi `mailto:` use ho raha hai, to user ki email app khulna zaroori hai. Real backend ke liye **Formspree**, **EmailJS**, **Netlify Forms** ya apna **PHP / Node API** use kar sakte hain. Is waqt `service` aur `délai` fields ka data email body mein shamil nahi hai – chahein to JS mein add kar dein.
+> 💡 **Note:** The form currently uses `mailto:`, so the visitor needs an email app set up. For a real backend, consider **Formspree**, **EmailJS**, **Netlify Forms**, or your own **PHP / Node API**. The `service`, `delai` and `ville` fields are not currently included in the email body – add them in the JS if needed.
 
 ---
 
@@ -303,10 +303,10 @@ mailto: link se user ki email app khulti hai
 
 | Breakpoint | Changes |
 |---|---|
-| `≤ 850px` | Devis section single column, form fields stack |
-| `≤ 800px` | Forms/About/Footer single column, navbar items 2-per-row, hero padding adjust |
-| `≤ 650px` | Urgence banner vertical layout |
-| Auto-fit grids | Service & why-us cards `minmax()` se khud adjust |
+| `≤ 850px` | Quote section becomes single column, form fields stack |
+| `≤ 800px` | Forms, About and Footer go single column; navbar items two per row; hero padding adjusts |
+| `≤ 650px` | Emergency banner switches to a vertical layout |
+| Auto-fit grids | Service and "why us" cards adapt via `minmax()` |
 
 ---
 
@@ -314,30 +314,29 @@ mailto: link se user ki email app khulti hai
 
 **SEO**
 - `lang="fr"` attribute
-- Meaningful `<title>` aur `<meta name="description">`
-- Semantic HTML tags aur heading hierarchy
-- Image `alt` text
+- Meaningful `<title>` and `<meta name="description">`
+- Semantic HTML and a clear heading hierarchy
+- `alt` text on images
 
 **Accessibility**
-- `aria-label` on nav, inputs aur decorative elements (`aria-hidden`)
+- `aria-label` on navigation and inputs, `aria-hidden` on decorative elements
 - `:focus-visible` outlines
-- `role="status"` success message par
-- `prefers-reduced-motion` support – animations off ho jati hain
-- Color contrast navy/white base par
+- `role="status"` on the success message
+- `prefers-reduced-motion` support – animations turn off automatically
 
 ---
 
 ## ✅ TODO / Placeholders
 
-- [ ] Real phone number lagana (`01 00 00 00 00`)
-- [ ] Footer address aur SIRET fill karna
-- [ ] `roof.jpg`, `roof1.jpg`, `roof2.jpg` files folder mein add karna
-- [ ] Privacy policy aur mentions légales pages banana (abhi `#` links hain)
-- [ ] Real backend form integration
-- [ ] "En savoir plus" buttons ke liye individual service pages
-- [ ] Google Maps embed aur testimonials section
-- [ ] Duplicate CSS cleanup (`.sc`, `.g4`, `.urg` rules do jagah define hain)
-- [ ] Unsplash images ko local optimize kar ke host karna (speed ke liye)
+- [ ] Add the real phone number (`01 00 00 00 00`)
+- [ ] Fill in the footer address and SIRET
+- [ ] Add `roof.jpg`, `roof1.jpg`, `roof2.jpg` to the project folder
+- [ ] Create the privacy policy and legal notice pages (links are currently `#`)
+- [ ] Connect the form to a real backend
+- [ ] Add individual pages for the "En savoir plus" service buttons
+- [ ] Add a Google Maps embed and a testimonials section
+- [ ] Clean up duplicate CSS (`.sc`, `.g4`, `.urg` rules are defined twice)
+- [ ] Optimize and self-host the Unsplash images for speed
 
 ---
 
