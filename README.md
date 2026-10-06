@@ -70,7 +70,8 @@ A modern, responsive, single-file website built for a French roofing company, **
 
 | Desktop View | Mobile View |
 |:---:|:---:|
-| ![Header Desktop](screenshots/01-header-desktop.png) | ![Header Mobile](screenshots/01-header-mobile.png) |
+| <img width="926" height="436" alt="image" src="https://github.com/user-attachments/assets/4da08865-b97e-45ec-a689-6aad0d85339d" />
+|
 | Logo, phone, service area, "Request a quote" button and sticky navbar | On mobile, navbar items wrap into two columns |
 
 ### 2️⃣ Hero Section
@@ -84,7 +85,8 @@ A modern, responsive, single-file website built for a French roofing company, **
 
 | Left Column – Info & Trust | Right Column – Form |
 |:---:|:---:|
-| ![Quote Info](screenshots/03-devis-info.png) | ![Quote Form](screenshots/03-devis-form.png) |
+| <img width="952" height="440" alt="image" src="https://github.com/user-attachments/assets/25710f50-72ff-4078-a63c-6d2b84394ae7" />
+|
 | Tag, heading, ten-year warranty, callback card | Name, phone, email, city, service, timeframe, details |
 
 ### 4️⃣ Ticker & "Why Choose Us?"
@@ -98,28 +100,32 @@ A modern, responsive, single-file website built for a French roofing company, **
 
 | Images & Layout | Text & Checklist |
 |:---:|:---:|
-| ![About Images](screenshots/05-about-images.png) | ![About Text](screenshots/05-about-text.png) |
+| <img width="959" height="442" alt="image" src="https://github.com/user-attachments/assets/928f2651-d4a8-4939-b1a5-a0e26f3edcf8" />
+ |
 | Two tilted images (`roof1.jpg`, `roof2.jpg`) that straighten on hover | Company intro, qualification badge, phone number and CTA button |
 
 ### 6️⃣ Services Section
 
 | Services Grid (Row 1) | Services Grid (Row 2) |
 |:---:|:---:|
-| ![Services 1](screenshots/06-services-1.png) | ![Services 2](screenshots/06-services-2.png) |
+| <img width="940" height="431" alt="image" src="https://github.com/user-attachments/assets/b20f13d7-8c6b-4801-9769-50ea32c736d4" />
+ |
 | New roofing, Framework, Waterproofing, Cleaning | Zinc work, Roof windows, Facade renovation, Insulation |
 
 ### 7️⃣ Emergency Banner & Process Steps
 
 | Emergency Banner | How We Work |
 |:---:|:---:|
-| ![Emergency](screenshots/07-urgence.png) | ![Steps](screenshots/07-steps.png) |
+| <img width="944" height="440" alt="image" src="https://github.com/user-attachments/assets/3173b31d-6a3a-4a71-8e3e-7177c62bda6f" />
+ |
 | "Leak emergency?" – 24/7 call-to-action | 3 steps: consultation, roofing works, final inspection |
 
 ### 8️⃣ Footer
 
 | Footer Desktop | Footer Mobile |
 |:---:|:---:|
-| ![Footer Desktop](screenshots/08-footer-desktop.png) | ![Footer Mobile](screenshots/08-footer-mobile.png) |
+| <img width="950" height="412" alt="image" src="https://github.com/user-attachments/assets/ff82abea-2bff-4c03-b35c-cc84a3f856c8" />
+|
 | Logo, contact details, service links, legal links, copyright | Single-column layout |
 
 ---
